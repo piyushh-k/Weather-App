@@ -1,6 +1,4 @@
-// https://api.opencagedata.com/geocode/v1/json?q=Paris%2C+France&key=YOUR_API_KEY
-// 1e79da29e90c4f1ba650720ff8bd61d4
-// api.open-meteo.com/v1/forecast?latitude=52.52&longitude=13.41&hourly=temperature_2m"
+
 
 const weatherAPI = "https://api.open-meteo.com/v1/forecast?latitude="
 const geoCodeAPI = "https://api.opencagedata.com/geocode/v1/json?q="
