@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Weather</title>
+        <link rel="stylesheet" href="styles.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+            rel="stylesheet">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <div class="card">
+           
+            <div class="search">
+                <input type="text" id="input" placeholder="Enter City Name , Country Name" />
+                <button onclick="Country()"><img
+                        src="https://media.istockphoto.com/id/1270642880/vector/white-map-pin-icon-isolated-with-long-shadow-navigation-pointer-location-map-gps-direction.jpg?s=612x612&w=0&k=20&c=bo_tKwu8LybZ3kI7m6Th2JJEFoLtpdUVH_zXcHkO-Jc="
+                        alt="A search button" width="40px"
+                        height="40px"></button>
+            </div>
+            <div class="weather"><img
+                    src="https://cdn-icons-png.flaticon.com/512/4834/4834559.png"
+                    alt width="200" class="weather-icon"
+                    style="background: transparent;"><br>
+                <h1 class="load">Searching...</h1>
+                <div class="loader"></div>
+                <div class="Temp">
+                    Temprature
+                </div>
+                <div class="details">
+                    <p id="wind"><i class="fa-solid fa-wind"></i><br>wind </p>
+                    <p id="humidity"><i class="fa-solid fa-water"></i><br> humidity</p>
+                    <p id="clouds"><i class="fa-solid fa-cloud"></i><br>clouds</p>
+
+            <script src="script.js"></script>
+        </body>
+    </html>

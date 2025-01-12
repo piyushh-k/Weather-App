@@ -1,0 +1,107 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #222;
+}
+
+.card {
+    width: 90%;
+    max-width: 490px;
+    margin : 30px auto 0;
+    text-align: center;
+    border-radius: 20px;
+    padding: 40px 40px;
+    background-image: linear-gradient(to top, #cd9cf2 0%, #f6f3ff 100%);
+    
+}
+
+
+.search {
+    display: inline-flex;
+    justify-content: center;
+    margin-top: 100px;
+    border: solid 1px;
+    
+}
+
+
+#input {
+    transition: width 0.2s ease, height 0.6s ease;
+    width: 200px;
+    height : 49px;
+
+}
+
+#input::placeholder{
+    font-size: 12px;
+    color: rgb(117, 102, 102);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.Temp {
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    font-size: 3.5rem;
+    justify-content: center;
+    font-family: "Bebas Neue", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.load {
+    font-family: "Bebas Neue", serif;
+    font-weight: 300;
+    font-style: normal;
+    display: none;
+    margin-top: 10px;
+}
+
+/* HTML: <div class="loader"></div> */
+.loader {  
+    display: none;  
+    --r1: 154%;
+    --r2: 68.5%;
+    width: 100px;
+    aspect-ratio: 1;
+    border-radius: 50%; 
+    background:
+      radial-gradient(var(--r1) var(--r2) at top   ,#0000 79.5%,#269af2 80%),
+      radial-gradient(var(--r1) var(--r2) at bottom,#269af2 79.5%,#0000 80%),
+      radial-gradient(var(--r1) var(--r2) at top   ,#0000 79.5%,#269af2 80%),
+      #ccc;
+    background-size: 50.5% 220%;
+    background-position: -100% 0%,0% 0%,100% 0%;
+    background-repeat:no-repeat;
+    animation: l9 1.5s infinite linear , fadeInOut 1s infinite;
+  }
+  @keyframes l9 {
+      33%  {background-position:    0% 33% ,100% 33% ,200% 33% }
+      66%  {background-position: -100%  66%,0%   66% ,100% 66% }
+      100% {background-position:    0% 100%,100% 100%,200% 100%}
+  }
+
+  @keyframes fadeInOut {
+    0% {
+        opacity: 1;
+      }
+      50% {
+        opacity: 0.5;
+      }
+      100% {
+        opacity: 1;
+      }
+  }
+
+.details {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #3f3f3f;
+    font-size: 1.5rem;
+}
