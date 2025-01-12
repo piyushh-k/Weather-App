@@ -21,7 +21,7 @@ Usage:
 5. The results will be displayed within seconds.<br>
 __________________________________________
 Technologies Used : <br>
-1. HTML, CSS, JavaScript.<br>
+1. HTML, CSS, JavaScript/Vanilla Javscript.<br>
 2. Open-Meteo API.<br>
 3. OpenCage Geocoding API.<br>
 __________________________________________
