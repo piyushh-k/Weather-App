@@ -28,4 +28,4 @@ __________________________________________
 
  API References : <br>
  1. OpenCage API :  https://api.opencagedata.com/geocode/v1/json?q=Paris%2C+France&key={YOUR_API_KEY}
- 2. OpenWeather API : api.open-meteo.com/v1/forecast?latitude=52.52&longitude=13.41&hourly=temperature_2m,cloud_cover,wind_speed_10m,snowfall
+ 2. OpenWeather API : https://api.open-meteo.com/v1/forecast?latitude=52.52&longitude=13.41&hourly=temperature_2m,cloud_cover,wind_speed_10m,snowfall
